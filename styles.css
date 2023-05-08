@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+
+body {
+    background-color: rgb(196, 250, 245);
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h1 span {
+    color: rgb(42, 202, 42);
+}
+
+h2 {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+}
+
+#radio-button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+#form {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+form input[type="file"]{
+    font-size: 2rem;
+}
+
+#form-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hide {
+    display: none;
+}
+
+#image-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 50%;
+    margin: auto;
+}
